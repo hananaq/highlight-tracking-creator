@@ -5,7 +5,7 @@ A **Streamlit** app for automatically generating **video highlights** and **trac
 - **Automatic Highlights**  
   Extracts keyframes by detecting major scene changes, then stitches them into a short fast-forward style video.
 - **Object Detection & Tracking**  
-  Track selected objects (people, vehicles, sports balls, etc.) with YOLOv11 pose/detect models and ByteTrack.
+  Track selected objects (people, vehicles, etc.) with YOLOv11 model and ByteTrack.
 - **Trajectory Export**  
   Saves tracked object trajectories as JSON (`id`, `frame`, `centroid_x`, `centroid_y`).
 - **User-Friendly UI**  
