@@ -11,8 +11,7 @@ A **Streamlit** app for automatically generating **video highlights** and **trac
 - **User-Friendly UI**  
   Adjustable change sensitivity for highlight generation, object selection via dropdown, and one-click downloads.
 
-  ## 🎬 Demo
-
+## 🎬 Demo
 **Downloads:**
 - [Highlight video](assets/demo-highlight.mp4)
 - [Tracked video](assets/demo-annotated.mp4)
