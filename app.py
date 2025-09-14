@@ -420,3 +420,16 @@ if "trajectories_json" in st.session_state.downloads:
 
 else:
     st.info("Upload a video to get started.")
+
+st.markdown(
+"""
+<hr style="margin-top: 2em; margin-bottom: 0.5em;">
+<div style="text-align: center; font-size: 0.9em; color: gray;">
+    Developed by <b><a href="https://www.linkedin.com/in/hananabukwaider/" target="_blank" style="text-decoration: none; color: #4da6ff;">Eng. Hanan Abu Kwaider</a></b> · 
+    
+    
+    
+</div>
+""",
+unsafe_allow_html=True
+)
