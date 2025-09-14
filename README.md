@@ -16,3 +16,5 @@ A **Streamlit** app for automatically generating **video highlights** and **trac
 - [Highlight video](assets/demo-highlight.mp4)
 - [Tracked video](assets/demo-annotated.mp4)
 - [Trajectories JSON](assets/demo-trajectories.json)
+
+This was created for fun, and feel free to fork it, or if you have any features you suggest to add please contact me 
