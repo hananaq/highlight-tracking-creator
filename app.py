@@ -94,7 +94,7 @@ def _read_bytes(p: Path) -> bytes:
         return f.read()
 
 # ---- Label drawing with background (visible on dark frames) ----
-def draw_label_bg(img, text, x, y, font=cv2.FONT_HERSHEY_SIMPLEX, scale=0.6, fg=(255,255,255), bg=(0,0,0)):
+def draw_label_bg(img, text, x, y, scale=0.6, fg=(255,255,255), bg=(0,0,0)):
     (tw, th), baseline = cv2.getTextSize(text, font, scale, 2)
     pad = 3
     cv2.rectangle(img, (x, y - th - pad), (x + tw + pad*2, y + baseline), bg, thickness=-1)
