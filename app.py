@@ -288,12 +288,8 @@ def run_tracking_to_mp4_with_json(video_path: Path, classes: List[int], conf: fl
 st.set_page_config(page_title="Highlight & Tracking Creator", layout="centered")
 st.title("Highlight & Tracking Creator")
 st.markdown("""
-This tool creates **short highlight videos** and can **detect & track objects** (people, vehicles, sports ball, etc.).
-
-- **Change Sensitivity** (sidebar):  
-  • Higher = detects smaller changes → more keyframes → longer highlight.  
-  • Lower = detects only big changes → fewer keyframes → shorter highlight.  
-- **Object Tracking** (optional): select which objects to follow.
+This tool creates **short highlight videos** and can **detect & track objects**.
+and allow to download the results, including a JSON file with object trajectories.
 """)
 
 if "video_bytes" not in st.session_state:
